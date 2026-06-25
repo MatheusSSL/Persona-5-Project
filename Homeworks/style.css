@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #111;
+    background-image: linear-gradient(rgb(20, 8, 8), rgb(65, 1, 1));
     color: white;
     accent-color: red;
 }
@@ -28,15 +28,66 @@ button{
     background-color: transparent;
     border: none;
 }
-
+.linha-fina{
+    color: gray;
+}
 .principal{
-    display: flex;
     color: #111;
     background-color: white;
-    width: 1000px;
-    margin: 100px auto;
+    width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
-/* .titulos{
-    font-family: ;
-} */
+.titulos2{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    display: flex;
+    color: #ffffff;
+    width: 1000px;
+    margin: 40px auto 10px auto;
+    justify-content: center;
+
+}
+
+.titulos{
+
+    display: flex;
+    color: #ffffff;
+}
+
+/* Estilo básico para os botões */
+.controles-audio {
+    display: flex;
+    gap: 10px;
+    /* Fixado no canto inferior direito */
+    position: fixed; /* Fixa o elemento na tela */
+    bottom: 20px;    /* Distância de 20px da borda inferior */
+    right: 20px;     /* Distância de 20px da borda direita */
+    z-index: 9999;   /* Garante que os botões fiquem na frente de QUALQUER outro elemento da página */
+}
+
+.btn-audio {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #561212;
+  color: white;
+  transition: background 0.2s;
+}
+
+.btn-audio:hover {
+  background-color: #b30000;
+}
+
+footer{
+    margin: 0;
+    background-color: #250303;
+    height: 100px;
+}
