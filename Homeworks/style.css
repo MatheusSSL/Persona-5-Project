@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: #111;
+    color: white;
+    accent-color: red;
+}
+
+header {
+    background-color: red;
+    display: flex;
+    height: 80px;
+    background: linear-gradient(to left, #380b0b, #c00);
+    box-shadow: 0 4px 15px rgba(0,0,0,.4);
+}
+
+.logo-persona{
+
+    width: 125px;
+    transition: all 0.4s ease;
+}
+
+.logo-persona:hover{
+
+    transform: scale(1.05);
+}
+button{
+
+    background-color: transparent;
+    border: none;
+}
+
+.principal{
+    display: flex;
+    color: #111;
+    background-color: white;
+    width: 1000px;
+    margin: 100px auto;
+}
+
+/* .titulos{
+    font-family: ;
+} */
